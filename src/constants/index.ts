@@ -7,32 +7,41 @@ import type {
   TProject,
 } from "../types";
 
-import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+import { 
+  mobile, 
+  backend, 
+  creator, 
+  web, 
+  javascript, 
+  typescript, 
+  html, 
+  css, 
+  reactjs, 
+  tailwind, 
+  meta, 
+  starbucks, 
+  tesla, 
+  shopify, 
+  carrent, 
+  jobit, 
+  tripguide, 
 } from "../assets";
+
+import java from "../assets/tech/java.png";
+import python from "../assets/tech/python.png";
+import django from "../assets/tech/django.png";
+
+
+export { 
+  java, 
+  python,
+  django
+};
+
+
+console.log("Java Icon Path:", java);
+console.log("Python Icon Path:", python);
+
 
 export const navLinks: TNavLink[] = [
   {
@@ -90,36 +99,20 @@ const technologies: TTechnology[] = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Java",
+    icon: java,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Django",
+    icon: django,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "Python",
+    icon: python,
   },
 ];
 
