@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Om Kotwal — 3D Portfolio",
+    fullName: "Om Kotwal",
+    email: "omkotwal1811@gmail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Om Kotwal",
+    p: ["Senior @ Vernon Hills High School", "UIUC CS '29"],
   },
   contact: {
     p: "Get in touch",
@@ -67,11 +67,7 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I'm a passionate software developer with expertise in Python, Java, and JavaScript, specializing in full-stack development and intuitive user experiences. With a foundation in frameworks like React and Django, I build scalable and efficient applications that solve real-world problems. As the CTO of classCalendar LLC, I’ve led product development, crafting innovative solutions to enhance productivity. Whether it's web development, AI-driven learning platforms, or interactive UI design, I thrive on turning complex ideas into seamless digital experiences. Let’s collaborate and bring your vision to life!`,
     },
     experience: {
       p: "What I have done so far",
