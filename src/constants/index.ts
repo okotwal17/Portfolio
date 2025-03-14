@@ -30,12 +30,14 @@ import {
 import java from "../assets/tech/java.png";
 import python from "../assets/tech/python.png";
 import django from "../assets/tech/django.png";
+import flutterflow from "../assets/tech/flutterflow.png";
 
 
 export { 
   java, 
   python,
-  django
+  django,
+  flutterflow
 };
 
 
@@ -113,6 +115,10 @@ const technologies: TTechnology[] = [
   {
     name: "Python",
     icon: python,
+  },
+  {
+    name: "FlutterFlow",
+    icon: flutterflow,
   },
 ];
 
