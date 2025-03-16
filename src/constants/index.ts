@@ -17,27 +17,27 @@ import {
   html, 
   css, 
   reactjs, 
-  tailwind, 
-  meta, 
-  starbucks, 
-  tesla, 
-  shopify, 
-  carrent, 
-  jobit, 
-  tripguide, 
+  tailwind,  
 } from "../assets";
 
 import java from "../assets/tech/java.png";
 import python from "../assets/tech/python.png";
 import django from "../assets/tech/django.png";
 import flutterflow from "../assets/tech/flutterflow.png";
+import xperience from "../assets/company/xperience.png";
+import classCalendar from "../assets/company/classCalendar.png";
+import algebraiDemo from "../assets/algebraiDemo.png";
+import classCal from "../assets/classCal.png";
+
 
 
 export { 
   java, 
   python,
   django,
-  flutterflow
+  flutterflow,
+  classCalendar,
+  xperience
 };
 
 
@@ -124,148 +124,98 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Computer Science Consulting & Curriculum Development Intern",
+    companyName: "Xperience Coding LLC",
+    icon: xperience,  // replace with appropriate icon
+    iconBg: "#383E56",  // Darker background color for Xperience
+    date: "Jun 2024 – Jul 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed STEM camp curricula for approximately 50 students, covering topics such as Web Development, Programming, and Robotics, integrating tools like HTML, CSS, and basic JavaScript.",
+      "Initiated outreach to local businesses, providing pro bono tech services that resulted in the creation of a virtual tour for Lakeview Fitness using basic web development tools.",
+      "Coordinated and managed various tech projects, producing detailed technical specifications, wireframes, and project timelines to ensure smooth execution."
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Co-President of Education",
+    companyName: "Xperience Coding LLC",
+    icon: xperience,  // replace with appropriate icon
+    iconBg: "#383E56",  // Darker background color for Xperience
+    date: "Aug 2024 – Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Spearheaded the design and implementation of coding curricula for K-5 students, utilizing Scratch and Python to build interactive learning modules and exercises.",
+      "Developed hands-on, age-appropriate lesson plans and coding activities to teach programming concepts such as loops, conditionals, and algorithms.",
+      "Taught coding camps, adapting instruction to various skill levels, ensuring students gained practical experience with fundamental coding languages and tools.",
+      "Collaborated with board members to iteratively improve the curriculum, incorporating feedback and optimizing the learning experience for students."
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Chief Technology Officer (CTO)",
+    companyName: "classCalendar LLC",
+    icon: classCalendar,  // replace with appropriate icon
+    iconBg: "#E6DEDD",  // Lighter background color for classCalendar
+    date: "May 2024 – Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Co-founded classCalendar LLC and led the development of a full-stack task and assignment management app, featuring avatar customization and a rewards system to enhance user engagement.",
+      "Designed and implemented both front-end and back-end components using FlutterFlow, Dart, Firebase, and Avataars API, contributing to 100K+ lines of code for a seamless, fully integrated app.",
+      "Accepted into the Apple Developer Program, with the app set for App Store release soon, strengthening expertise in full-stack development, app deployment, team leadership, and user experience design."
     ],
   },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
+
 ];
 
 const testimonials: TTestimonial[] = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+    name: "Possibly Mr. Lueken",
     designation: "CFO",
-    company: "Acme Co",
+    company: "XP Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Algebr.ai",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Created an AI-powered algebra learning app using ChatGPT API for personalized practice questions. Developed a full-stack platform with HTML, CSS, JavaScript, and Django, winning 1st place in the Math Division at the D128 STEAM Showcase.",
     tags: [
       {
-        name: "react",
+        name: "gptapi",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "django",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: algebraiDemo,
+    sourceCodeLink: "https://github.com/okotwal17/Algebr.ai",
   },
   {
-    name: "Job IT",
+    name: "classCalendar",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Co-founded classCalendar LLC and developed a full-stack task management app with avatar customization and rewards. Built the app using FlutterFlow, Dart, Firebase, and Avataars API, contributing 100K+ lines of code. Accepted into the Apple Developer Program, with the app soon launching on the App Store.",
     tags: [
       {
-        name: "react",
+        name: "flutterflow",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "fullstack",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
+    image: classCal,
     sourceCodeLink: "https://github.com/",
   },
 ];
