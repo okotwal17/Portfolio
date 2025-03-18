@@ -216,7 +216,7 @@ const projects: TProject[] = [
       },
     ],
     image: classCal,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://classcalendarapp.com/",
   },
 ];
 
