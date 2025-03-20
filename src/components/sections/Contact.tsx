@@ -18,6 +18,10 @@ const emailjsConfig = {
   accessToken: import.meta.env.VITE_EMAILJS_ACCESS_TOKEN,
 };
 
+console.log("Service ID:", emailjsConfig.serviceId);
+console.log("Template ID:", emailjsConfig.templateId);
+console.log("Access Token (Public Key):", emailjsConfig.accessToken);
+
 const Contact = () => {
   const formRef = useRef<React.LegacyRef<HTMLFormElement> | undefined>();
   const [form, setForm] = useState(INITIAL_STATE);
@@ -52,6 +56,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
+          console.log("SUCCESS:");
           alert("Thank you. I will get back to you as soon as possible.");
 
           setForm(INITIAL_STATE);
