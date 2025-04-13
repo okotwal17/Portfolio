@@ -167,11 +167,11 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Possibly Mr. Lueken",
-    designation: "CFO",
-    company: "XP Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Coming soon!",
+    name: "Mr. Adam Lueken",
+    designation: "Founder",
+    company: "XP Coding",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQGqZw5Usffsrg/profile-displayphoto-shrink_200_200/B4DZPgN99IHYAk-/0/1734633578711?e=1750291200&v=beta&t=eEOFafBqnKmjNhgKu-CBvKMusJiEctYGUxUMsnunndM",
   },
 ];
 
