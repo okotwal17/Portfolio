@@ -28,6 +28,7 @@ import xperience from "../assets/company/xperience.png";
 import classCalendar from "../assets/company/classCalendar.png";
 import algebraiDemo from "../assets/algebraiDemo.png";
 import classCal from "../assets/classCal.png";
+import techdeal from "../assets/techdeal.png";
 
 
 
@@ -217,6 +218,27 @@ const projects: TProject[] = [
     ],
     image: classCal,
     sourceCodeLink: "https://classcalendarapp.com/",
+  },
+  {
+    name: "Tech Deals Scraper",
+    description:
+      "A full-stack application that lets users search for tech products and find the best prices across multiple websites (eBay, Newegg, and B&H Photo Video).",
+    tags: [
+      {
+        name: "flask",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "fullstack",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: techdeal,
+    sourceCodeLink: "https://github.com/okotwal17/TechDealsScraper?tab=readme-ov-file",
   },
 ];
 
