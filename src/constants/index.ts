@@ -17,7 +17,7 @@ import {
   html, 
   css, 
   reactjs, 
-  tailwind,  
+  tailwind,
 } from "../assets";
 
 import java from "../assets/tech/java.png";
@@ -149,18 +149,7 @@ const experiences: TExperience[] = [
       "Collaborated with board members to iteratively improve the curriculum, incorporating feedback and optimizing the learning experience for students."
     ],
   },
-  {
-    title: "Chief Technology Officer (CTO)",
-    companyName: "classCalendar LLC",
-    icon: classCalendar,  // replace with appropriate icon
-    iconBg: "#E6DEDD",  // Lighter background color for classCalendar
-    date: "May 2024 – Present",
-    points: [
-      "Co-founded classCalendar LLC and led the development of a full-stack task and assignment management app, featuring avatar customization and a rewards system to enhance user engagement.",
-      "Designed and implemented both front-end and back-end components using FlutterFlow, Dart, Firebase, and Avataars API, contributing to 100K+ lines of code for a seamless, fully integrated app.",
-      "Accepted into the Apple Developer Program, with the app set for App Store release soon, strengthening expertise in full-stack development, app deployment, team leadership, and user experience design."
-    ],
-  },
+
   
 
 ];

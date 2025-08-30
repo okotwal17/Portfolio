@@ -1,5 +1,6 @@
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 import { github } from "../../assets";
 import { SectionWrapper } from "../../hoc";
@@ -18,7 +19,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   sourceCodeLink,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="w-full sm:w-[300px]">
       <Tilt
         glareEnable
         tiltEnable
@@ -26,7 +27,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
         tiltMaxAngleY={30}
         glareColor="#aaa6c3"
       >
-        <div className="bg-tertiary w-full rounded-2xl p-5 sm:w-[300px]">
+        <div className="bg-tertiary w-full rounded-2xl p-5 mx-4">
           <div className="relative h-[230px] w-full">
             <img
               src={image}
@@ -64,21 +65,33 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
 };
 
 const Works = () => {
+  const navigate = useNavigate();
+  const displayedProjects = projects.slice(0, 3);
+
   return (
     <>
       <Header useMotion={true} {...config.sections.works} />
 
-      <div className="flex w-full">
+      <div className="flex w-full items-center justify-between">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="text-secondary mt-3 max-w-3xl text-[17px] leading-[30px]"
         >
           {config.sections.works.content}
         </motion.p>
+        
+        <motion.button
+          variants={fadeIn("left", "spring", 0.1, 1)}
+          onClick={() => navigate("/all-projects")}
+          className="flex items-center gap-2 rounded-full bg-tertiary px-6 py-3 text-white hover:bg-tertiary/80 transition-colors whitespace-nowrap"
+        >
+          <span>View More Projects</span>
+          <span className="text-lg">→</span>
+        </motion.button>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
-        {projects.map((project, index) => (
+      <div className="mt-20 px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 justify-items-center">
+        {displayedProjects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
