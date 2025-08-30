@@ -71,7 +71,7 @@ const services: TService[] = [
     icon: mobile,
   },
   {
-    title: "Tech Entrepreneur",
+    title: "Software Developer",
     icon: backend,
   },
   {
@@ -131,7 +131,7 @@ const experiences: TExperience[] = [
     iconBg: "#383E56",  // Darker background color for Xperience
     date: "Jun 2024 – Jul 2024",
     points: [
-      "Developed STEM camp curricula for approximately 50 students, covering topics such as Web Development, Programming, and Robotics, integrating tools like HTML, CSS, and basic JavaScript.",
+      "Developed STEM camp curricula for over 200 students, covering topics such as Web Development, Programming, and Robotics, integrating tools like HTML, CSS, and basic JavaScript.",
       "Initiated outreach to local businesses, providing pro bono tech services that resulted in the creation of a virtual tour for Lakeview Fitness using basic web development tools.",
       "Coordinated and managed various tech projects, producing detailed technical specifications, wireframes, and project timelines to ensure smooth execution."
     ],
@@ -157,7 +157,7 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "Coming soon!",
+      "I would highly recommend him.",
     name: "Mr. Adam Lueken",
     designation: "Founder",
     company: "XP Coding",
