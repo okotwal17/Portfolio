@@ -141,7 +141,7 @@ const experiences: TExperience[] = [
     companyName: "Xperience Coding LLC",
     icon: xperience,  // replace with appropriate icon
     iconBg: "#383E56",  // Darker background color for Xperience
-    date: "Aug 2024 – August 2025",
+    date: "August 2024 – August 2025",
     points: [
       "Spearheaded the design and implementation of coding curricula for K-5 students, utilizing Scratch and Python to build interactive learning modules and exercises.",
       "Developed hands-on, age-appropriate lesson plans and coding activities to teach programming concepts such as loops, conditionals, and algorithms.",
