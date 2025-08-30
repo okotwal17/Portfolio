@@ -46,7 +46,7 @@ export const config: TConfig = {
   },
   hero: {
     name: "Om Kotwal",
-    p: ["Senior @ Vernon Hills High School", "UIUC CS '29"],
+    p: ["Aspiring Software Developer", "UIUC CS '29"],
   },
   contact: {
     p: "Get in touch",
