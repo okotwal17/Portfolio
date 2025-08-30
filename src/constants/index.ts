@@ -129,7 +129,7 @@ const experiences: TExperience[] = [
     companyName: "Xperience Coding LLC",
     icon: xperience,  // replace with appropriate icon
     iconBg: "#383E56",  // Darker background color for Xperience
-    date: "Jun 2024 – Jul 2024",
+    date: "May 2024 – August 2024",
     points: [
       "Developed STEM camp curricula for over 200 students, covering topics such as Web Development, Programming, and Robotics, integrating tools like HTML, CSS, and basic JavaScript.",
       "Initiated outreach to local businesses, providing pro bono tech services that resulted in the creation of a virtual tour for Lakeview Fitness using basic web development tools.",
@@ -141,7 +141,7 @@ const experiences: TExperience[] = [
     companyName: "Xperience Coding LLC",
     icon: xperience,  // replace with appropriate icon
     iconBg: "#383E56",  // Darker background color for Xperience
-    date: "Aug 2024 – Present",
+    date: "Aug 2024 – August 2025",
     points: [
       "Spearheaded the design and implementation of coding curricula for K-5 students, utilizing Scratch and Python to build interactive learning modules and exercises.",
       "Developed hands-on, age-appropriate lesson plans and coding activities to teach programming concepts such as loops, conditionals, and algorithms.",
