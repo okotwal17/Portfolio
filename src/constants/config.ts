@@ -67,7 +67,7 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a passionate software developer with expertise in Python, Java, and JavaScript, specializing in full-stack development and intuitive user experiences. With a foundation in frameworks like React and Django, I build scalable and efficient applications that solve real-world problems. As the CTO of classCalendar LLC, I’ve led product development, crafting innovative solutions to enhance productivity. Whether it's web development, AI-driven learning platforms, or interactive UI design, I thrive on turning complex ideas into seamless digital experiences. Let’s collaborate and bring your vision to life!`,
+      content: `I’m a software developer experienced in Python, Java, and JavaScript, with a focus on full-stack development and building intuitive user experiences. I’ve worked with frameworks like React and Django to create scalable applications that solve real-world problems. I enjoy developing web applications, AI-powered learning platforms, and interactive UIs, turning complex ideas into practical digital solutions.`,
     },
     experience: {
       p: "What I have done so far",
