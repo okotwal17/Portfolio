@@ -63,19 +63,19 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Mobile App Developer",
+    title: "Full-Stack Developer",
     icon: web,
   },
   {
-    title: "STEM Education Advocate",
+    title: "AI & Web Innovator",
     icon: mobile,
   },
   {
-    title: "Software Developer",
+    title: "STEM Education Advocate",
     icon: backend,
   },
   {
-    title: "Full-Stack Developer",
+    title: "Problem Solver",
     icon: creator,
   },
 ];
@@ -190,7 +190,7 @@ const projects: TProject[] = [
   {
     name: "classCalendar",
     description:
-      "Co-founded classCalendar LLC and developed a full-stack task management app with avatar customization and rewards. Built the app using FlutterFlow, Dart, Firebase, and Avataars API, contributing 100K+ lines of code. Accepted into the Apple Developer Program, with the app soon launching on the App Store.",
+      "Developed a full-stack task management app with avatar customization and rewards. Built the app using FlutterFlow, Dart, Firebase, and Avataars API, contributing 100K+ lines of code. Accepted into the Apple Developer Program.",
     tags: [
       {
         name: "flutterflow",
