@@ -206,7 +206,7 @@ const projects: TProject[] = [
       },
     ],
     image: classCal,
-    sourceCodeLink: "https://classcalendarapp.com/",
+    sourceCodeLink: "https://github.com/orimcoding/classCalendar-App-Development",
   },
   {
     name: "Tech Deals Scraper",
